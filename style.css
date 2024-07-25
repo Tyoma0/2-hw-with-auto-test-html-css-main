@@ -16,7 +16,7 @@ body {
     font-style: normal;
     line-height: normal;
     font-family: 'Inter', sans-serif;
-    color: rgba(48, 48, 48,);
+    color: rgba(48, 48, 48);
 }
 
 header {
@@ -132,7 +132,7 @@ background: rgba(255, 255, 255, 0);
 width: 125px;
 height: 36px;
 background: #2965f1;
-color: rgb(255, 255, 255,);
+color: rgb(255, 255, 255);
 
     /* Стили для кнопки */
 }
