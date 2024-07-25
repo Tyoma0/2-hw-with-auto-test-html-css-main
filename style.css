@@ -120,7 +120,8 @@ border-radius: 5px;
 width: 330px;
 height: 36px;
 padding: 16px;
-initial-value: 13,3333px;
+font-size: 16px 13.3333px;
+
 
 background: rgba(255, 255, 255, 0);
     /* Стили для односточного поля ввода текста */
@@ -148,6 +149,7 @@ table {
     font-variant-ligatures: 16px;
     width: 300px;
 height: 196px;
+font-size: 14px 16px;
     /* Стили для таблицы */
 }
 
@@ -155,11 +157,13 @@ th, td {
     border: 1px solid #95a1bb;
 width: 113px;
 height: 40px;
+padding: 12px 15px 0px;
     /* Стили для ячеек таблицы */
 }
 
 footer {
     background: rgba(163, 167, 255, 0.3);
+    padding: 26px 0px;
     /* Стили для футера */
 }
 
