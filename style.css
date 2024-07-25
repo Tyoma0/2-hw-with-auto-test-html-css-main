@@ -21,7 +21,7 @@ body {
 
 header {
     height: 100vh;
-    background: pink;
+    background: #2965f1;;
     width: 1440px;
     height: 70px;
        
@@ -132,7 +132,7 @@ background: rgba(255, 255, 255, 0);
 width: 125px;
 height: 36px;
 background: #2965f1;
-color: rgba(255, 255, 255, 0, 0, 0);
+color: rgba(255, 255, 255,);
 
     /* Стили для кнопки */
 }
