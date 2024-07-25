@@ -16,6 +16,7 @@ body {
     font-style: normal;
     line-height: normal;
     font-family: inter, sans-serif;
+    color: rgba(48, 48, 48, 0);
 }
 
 header {
@@ -39,7 +40,7 @@ text-align: center;
 
 .main-section {
     /* Стили для первой секции */
-    padding: 60px;
+    padding: 60px 0px ;
     initial-value: 0px;
     
     background: #fafaff;
@@ -70,10 +71,12 @@ color: #303030;
 
 .about-section {
     fill: #fff;
+    padding: 100px 0px;
     /* Стили для второй секции */
 }
 
 select {
+    background-repeat: no-repeat;
     /* Стили для выпадающего списка */
 }
 
@@ -82,6 +85,7 @@ select {
 font-weight: 700;
 font-size: 24px;
 color: #303030;
+margin-bottom: 25px;
     /* Стили для заголовков во второй секции */
 }
 
@@ -98,7 +102,7 @@ color: #303030;
 font-weight: 400;
 font-size: 16px;
 color: #303030;
-padding: 20px;
+padding: 0px 20px;
     /* Стили для нумерованного списка во второй секции */
 }
 
@@ -126,7 +130,7 @@ background: rgba(255, 255, 255, 0);
 width: 125px;
 height: 36px;
 background: #2965f1;
-color: rgba(255, 255, 255, 0);
+color: rgba(255, 255, 255,);
     /* Стили для кнопки */
 }
 
@@ -139,16 +143,15 @@ margin: 60px 0px;
 }
 
 table {
-    font-size: 12px;
+    
     width: 300px;
 height: 196px;
     /* Стили для таблицы */
 }
 
 th, td {
-    padding: 12px 15px;
     border: 1px solid #95a1bb;
-width: 134px;
+width: 113px;
 height: 40px;
     /* Стили для ячеек таблицы */
 }
@@ -164,5 +167,6 @@ font-weight: 400;
 font-size: 14px;
 color: #2965f1;
 text-decoration: none;
+padding: 26px 0px;
     /* Стили для футера */
 }
